@@ -1,0 +1,117 @@
+
+.welcome-banner{
+   width: 96%;
+   height: 5%;
+   margin: 2%;
+   border-radius: 15px;
+}
+
+.welcome-banner img{
+    width: 100%;
+    max-height: 35dvh;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.main-body-wrapper{
+    display: flex;
+    margin: 2%;
+}
+
+.category-container{
+    background-color: rgba(48, 144, 161, 0.493);
+    width: 200px;
+    height: 75vh;
+    border-radius: 8px;
+}
+.category-container h2{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+.products-container{
+    background-color:rgba(176, 219, 226, 0.438);
+    width: 100%;
+    height: auto;
+    border-radius:8px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.products-container h2{
+    font-size: 20px;
+    margin: 5px 5px 0px 20px;
+}
+
+.category-list{
+    margin-top: 12px;
+    
+}
+.singele-category{ 
+    text-transform: capitalize;
+    cursor: pointer;
+    text-align: center;
+    
+    padding-top: 10px;
+    height: 30px;
+}
+
+.singele-category:hover{
+    font-weight: bold;
+    background-color: rgba(12, 201, 226, 0.425);
+    border-radius: 4px;
+    color: green;
+}
+.singleProduct-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   
+   column-gap: 25px;
+   margin-left: 20px;
+}
+.single-product{
+    width: 150px;
+    
+    margin: 15px;
+    padding: 5px;
+    -webkit-box-shadow: -4px 7px 18px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 18px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.single-product:hover{
+    -webkit-box-shadow: 0px 3px 19px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 19px 1px rgba(0,0,0,0.75);
+     box-shadow: 0px 3px 19px 1px rgba(0,0,0,0.75);
+}
+.img-wrapper{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+
+}
+.single-product-img{
+    margin-top: 20px;
+    width: 90px;
+    height: 100px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+.prod-name{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+.prod-price{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.prod-rate{
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+    text-align: end;
+}
